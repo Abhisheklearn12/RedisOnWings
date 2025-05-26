@@ -1,0 +1,26 @@
+[workspace]
+resolver = "3"
+
+members = [
+    "redis-server",
+    "redis-storage",
+    "redis-protocol",
+    "redis-commands",
+    "redis-cli",
+    "redis-utils",
+    "redis-tests"
+]
+
+[workspace.dependencies]
+tokio = { version = "1.28", features = ["full"] }
+bytes = "1.4"
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+log = "0.4"
+env_logger = "0.10"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"
