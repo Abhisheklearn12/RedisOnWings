@@ -2,8 +2,6 @@
 
 > A blazing-fast, modular, Redis-like in-memory data store written in Rust, built for performance, extensibility, and learning how real databases work under the hood.
 
-For version = V0.1.0
-
 ---
 
 ## 🚀 Overview
