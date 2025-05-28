@@ -1,0 +1,20 @@
+# rustfmt.toml for redisonwings workspace
+
+format_code_in_doc_comments = true        # format /// doc comments nicely
+match_block_trailing_comma = true         # add trailing commas in match blocks for easier diffs
+condense_wildcard_suffixes = true         # shorten wildcards (_..) where possible
+use_field_init_shorthand = true           # use shorthand when initializing struct fields
+overflow_delimited_expr = true            # handle expressions spanning multiple lines better
+use_small_heuristics = "Max"              # apply maximum heuristics to break lines
+normalize_comments = true                 # normalize comment spacing and alignment
+reorder_impl_items = true                 # reorder impl items for consistency
+use_try_shorthand = true                  # use ? instead of try! macro
+newline_style = "Unix"                    # Unix-style newlines
+format_strings = true                     # format string literals
+wrap_comments = true                      # wrap long comments
+comment_width = 100                       # wrap comments at 100 characters
+max_width = 100                           # max line length for code lines
+edition = "2024"                          # Rust edition (aligned with project)
+hard_tabs = false                         # use spaces instead of tabs
+tab_spaces = 4                            # 4 spaces per indent level
+merge_imports = true                      # merge multiple imports from the same crate
