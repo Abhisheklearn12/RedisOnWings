@@ -1,4 +1,4 @@
-# rustfmt.toml for redisonwings workspace
+# rustfmt.toml for redisonwings workspace (important)
 
 format_code_in_doc_comments = true        # format /// doc comments nicely
 match_block_trailing_comma = true         # add trailing commas in match blocks for easier diffs
