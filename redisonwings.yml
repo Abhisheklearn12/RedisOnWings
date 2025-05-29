@@ -1,0 +1,60 @@
+
+project:
+  name: RedisOnWings
+  version: 0.1.0
+  description: >
+    RedisOnWings is a fast, lightweight, and modular Redis-like database engine written in Rust.
+    Designed for performance, testability, and clarity.
+  edition: 2024
+  license: MIT OR Apache-2.0
+  authors:
+    - Abhishek Learn (@Abhisheklearn12)
+
+repository:
+  url: https://github.com/Abhisheklearn12/RedisOnWings
+  issues: https://github.com/Abhisheklearn12/RedisOnWings/issues
+
+modules:
+  - redis-server
+  - redis-cli
+  - redis-storage
+  - redis-utils
+  - redis-protocol
+  - redis-commands
+  - redis-tests
+
+technologies:
+  language: Rust
+  async_runtime: Tokio
+  serialization: Serde
+  testing: Cargo test, snapshot testing (planned)
+  formatting: rustfmt
+  edition: 2024
+
+milestones:
+  - version: 0.1.0
+    status: completed
+    goals:
+      - [x] Workspace setup with multiple crates
+      - [x] Shared dependencies using workspace.dependencies
+      - [x] CLI + server binaries structured
+      - [x] Build + test pipeline green
+
+  - version: 0.2.0
+    status: upcoming
+    goals:
+      - [ ] Basic RESP protocol support
+      - [ ] TCP socket-based server
+      - [ ] Command dispatching framework
+
+ci:
+  enabled: false
+  notes: GitHub Actions will be added in 0.2.0
+
+tags:
+  - redis
+  - rust
+  - database
+  - async
+  - toy-db
+  - systems-programming
