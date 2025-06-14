@@ -8,7 +8,7 @@ project:
   edition: 2024
   license: MIT OR Apache-2.0
   authors:
-    - Abhishek Learn (@Abhisheklearn12)
+    - Abhishek (@Abhisheklearn12)
 
 repository:
   url: https://github.com/Abhisheklearn12/RedisOnWings
