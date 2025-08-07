@@ -122,3 +122,6 @@ MIT License © 2025 \[Abhishek]
 - [ ] Authentication
 - [ ] Clustering
 - [ ] Web dashboard (monitoring, insights)
+---
+
+### My main goal for this: Build a fully Redis-compatible, multithreaded, production-grade, persistent key-value store in Rust, with the explicit goal of being ~50x faster than Redis, Dragonfly is the great example.
